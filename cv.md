@@ -67,5 +67,5 @@ _December 2022 to Present_
 
 ## Language
 
-*Russian - native.
-*English - Pre-Intermediate.
+**Russian** - native.
+**English** - Pre-Intermediate.

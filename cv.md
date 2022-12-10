@@ -35,7 +35,7 @@ Worked as a sales specialist in a group of wholesalers. My duties included consu
 
 ## Skills
 
-` VSCode` `Practise in WebStorm``GoogleDocs` `Practice in Trello` `HTML5` `CSS/SCSS` `Javascript/ES5/ES6` `SQL` `Linux (bash)` `Windows 7/10` `Node.JS` `Git (GitHub)` `npm` `Webpack` `Bootstrap` `Figma` `Adobe Photoshop` `WordPress` `OpenCart`.
+` VSCode`, `Practise in WebStorm`,`GoogleDocs`, `Practice in Trello`, `HTML5` `CSS/SCSS`, `Javascript/ES5/ES6`, `SQL`, `Linux (bash)`, `Windows 7/10`, `Node.JS`, `Git (GitHub)`, `npm`, `Webpack`, `Bootstrap`, `Figma`, `Adobe Photoshop`, `WordPress`, `OpenCart`.
 
 ## Code examples
 

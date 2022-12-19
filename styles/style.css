@@ -1,0 +1,222 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+hr{
+    color:#cf0808;
+    height: 3px;
+    margin: 10px;
+}
+
+/* header */
+
+.content{
+    max-width: 1024px;
+    margin: auto;
+    /* background: linear-gradient(90deg, rgb(191, 19, 0) 7%, rgba(68,23,23,1) 31%, rgba(0,0,0,1) 61%);    
+     */
+}
+
+.profile__pic{
+    border-radius: 50%;
+    border: 3px solid #000;
+    box-shadow: 0 0 10px rgb(65, 65, 65);
+    margin: 15px;
+}
+
+.profile__name{
+    font-family: NotoSerif500;
+    text-align: center;
+}
+
+.profile__name h1{
+    font-size: 36px;
+    color: #cf0808;
+}
+
+.profile__name p{
+    font-size: 18px;
+    text-decoration: underline;
+    color: #8e1c00;
+    padding-bottom: 15px;
+}
+
+/* main info */
+
+
+.main__content{
+    max-width: 900px;
+    margin: auto;
+}
+
+.heading__name{
+    font-family: NotoSerif500;
+    font-size: 24px;
+    color:#cf0808;
+    margin-bottom: 15px;
+}
+
+.contact__info{
+    font-size: 18px;
+}
+
+.description{
+    font-size: 18px;
+    max-width: 90%;
+    text-align: center;
+    margin: auto;
+}
+
+/* history */
+
+.career__history{
+    max-width: 900px;
+    margin: auto;
+}
+
+.name__company{
+font-size: 22px;
+color:#9c0a0a;
+text-decoration: underline;
+margin: 10px ;
+}
+
+.position__company{
+    font-size: 20px;
+    color:#ca2b03;
+}
+
+.job__decription{
+    font-size: 18px;
+    text-align: center;
+    margin: 15px;  
+}
+
+/* skills */
+
+.skills{
+    max-width: 900px;
+    margin: auto;
+}
+
+.skills__list{
+    font-size: 18px;
+    text-align: center;
+    margin: 15px;
+    border: 2px dotted #000;
+}
+
+.subtitle__name{
+    font-family: NotoSerif500;
+    font-size: 22px;
+    color: #9c0a0a;
+    margin: 15px 0;
+}
+
+.code__examples{
+font-size: 20px;
+color:#000;
+text-decoration: underline;
+margin: 10px ;
+}
+
+.link__examples{
+    font-size: 18px;
+    text-align: left;
+    margin: 15px;
+}
+
+/* education */
+
+.education{
+    max-width: 900px;
+    margin: auto; 
+}
+
+.name__institution{
+font-size: 22px;
+color:#9c0a0a;
+text-decoration: underline;
+margin: 10px ;
+}
+
+.course__name{
+    font-size: 18px;
+    text-align: left;
+    margin: 20px;
+}
+
+.languages{
+    font-size: 18px;
+    text-align: left;
+    margin: 15px;
+}
+
+.footer{
+    max-width: 900px;
+    margin: auto; 
+    text-align: center;
+}
+
+.logo{
+    max-width: 25%;
+    margin: auto;
+    padding: 20px;
+}
+
+@font-face {
+    font-family: "NotoSerif500";
+src: url('https://fonts.googleapis.com/css2?family=Noto+Serif+Khmer:wght@500&display=swap');
+}

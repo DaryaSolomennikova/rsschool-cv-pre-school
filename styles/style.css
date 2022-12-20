@@ -54,91 +54,98 @@ select {
   font: inherit;
 }
 
+/* header */
+
+body{
+    background: linear-gradient(0deg, rgba(247,225,223,1) 7%, rgba(221,190,8,1) 18%, rgba(236,109,18,1) 33%, rgba(247,81,16,1) 47%, rgba(236,109,18,1) 63%, rgba(221,190,8,1) 81%, rgba(247,225,223,1) 94%); 
+}
+
 hr{
-    color:#cf0808;
-    height: 3px;
+    border:none;
+    color:#000;
+    background-color: #000;
+    height: 2px;
     margin: 10px;
 }
 
-/* header */
-
-.content{
-    max-width: 1024px;
+.header{
+    display: flex;
+    justify-content: space-around;
+    max-width: 900px;
     margin: auto;
-    /* background: linear-gradient(90deg, rgb(191, 19, 0) 7%, rgba(68,23,23,1) 31%, rgba(0,0,0,1) 61%);    
-     */
 }
 
-.profile__pic{
+.header-img{
+    max-width: 30%;
     border-radius: 50%;
     border: 3px solid #000;
     box-shadow: 0 0 10px rgb(65, 65, 65);
     margin: 15px;
 }
 
-.profile__name{
+.header-content{
     font-family: NotoSerif500;
     text-align: center;
+    margin: auto;
 }
 
-.profile__name h1{
-    font-size: 36px;
+.header-content p{
+    font-size: 20px;
     color: #cf0808;
 }
 
-.profile__name p{
+.header-name p{
     font-size: 18px;
     text-decoration: underline;
     color: #8e1c00;
     padding-bottom: 15px;
 }
 
-/* main info */
+/* main */
 
-
-.main__content{
+.main{
     max-width: 900px;
     margin: auto;
 }
 
-.heading__name{
+.heading-name{
     font-family: NotoSerif500;
     font-size: 24px;
     color:#cf0808;
-    margin-bottom: 15px;
+    margin: 15px 0;
 }
 
-.contact__info{
+.main-content{
     font-size: 18px;
 }
 
-.description{
+.main-description{
     font-size: 18px;
     max-width: 90%;
     text-align: center;
     margin: auto;
 }
 
-/* history */
+/* career */
 
-.career__history{
+.career-history{
     max-width: 900px;
     margin: auto;
 }
 
-.name__company{
+.name-company{
 font-size: 22px;
 color:#9c0a0a;
 text-decoration: underline;
 margin: 10px ;
 }
 
-.position__company{
+.position-company{
     font-size: 20px;
     color:#ca2b03;
 }
 
-.job__decription{
+.job-decription{
     font-size: 18px;
     text-align: center;
     margin: 15px;  
@@ -151,28 +158,32 @@ margin: 10px ;
     margin: auto;
 }
 
-.skills__list{
+.skills-list{
     font-size: 18px;
     text-align: center;
     margin: 15px;
     border: 2px dotted #000;
 }
 
-.subtitle__name{
-    font-family: NotoSerif500;
-    font-size: 22px;
-    color: #9c0a0a;
-    margin: 15px 0;
+.code-examples{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
 }
 
-.code__examples{
+.col-1.col-2{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.subtitle-name{
 font-size: 20px;
-color:#000;
+color:#9c0a0a;
 text-decoration: underline;
-margin: 10px ;
+margin: 15px ;
 }
 
-.link__examples{
+.link-examples{
     font-size: 18px;
     text-align: left;
     margin: 15px;
@@ -185,15 +196,16 @@ margin: 10px ;
     margin: auto; 
 }
 
-.name__institution{
-font-size: 22px;
-color:#9c0a0a;
-text-decoration: underline;
-margin: 10px ;
+.name-institution{
+    font-size: 22px;
+    color:#9c0a0a;
+    text-decoration: underline;
+    margin: 10px ;
 }
 
-.course__name{
-    font-size: 18px;
+.course-name{
+    font-size: 20px;
+    color:#ca2b03;
     text-align: left;
     margin: 20px;
 }
@@ -203,6 +215,8 @@ margin: 10px ;
     text-align: left;
     margin: 15px;
 }
+
+/* footer */
 
 .footer{
     max-width: 900px;
